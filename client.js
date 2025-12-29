@@ -1,7 +1,7 @@
 
 function WordChoiceViewer(pRootNode, pOptions) {
     // Settings
-    this.m_nWno = 0;
+    this.m_nWno = (Math.random() * 1000) | 0;
     this.m_strYear = "";
     this.m_nOptIdx = 0;
     this.m_nScale = 1;
